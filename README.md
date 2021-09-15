@@ -16,6 +16,17 @@ To enter a quick mode
 or print out the usage
 
 ```
-  bash ./easyboot.sh win -h
+  bash ./easyboot.sh -h
 ```
 
+### Note
+
+You have to modify the script to input which boot number to these 2 varables
+```
+win="0006"
+pos="0003"
+```
+Execute this command to figure out boot num
+```
+efibootmgr
+```
